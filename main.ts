@@ -2,7 +2,6 @@ let Start = 0
 let elapsed = 0
 input.onButtonPressed(Button.A, function () {
     Start = input.runningTime()
-    basic.showNumber(Math.idiv(0, 0))
 })
 input.onButtonPressed(Button.B, function () {
     elapsed = input.runningTime() - Start
